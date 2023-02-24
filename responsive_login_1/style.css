@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,0.5214460784313726) 10%, rgba(1,26,31,0.21332282913165268) 99%), url(img/bg.jpg);
+    background-size: cover;
+   
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    background-color: burlywood;
+   padding: 70px 50px 70px 50px;
+   
+  
+}
+
+.container form{
+    position: relative;
+   
+    
+
+}
+
+.container h1{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.input-box{
+    display: block;
+    width: 300px;
+    margin: 50px 0 ;
+    border-bottom:2px solid white ;
+} 
+
+.input-box label{
+    position: relative;
+    top: -25px;
+    left: -180px;
+
+}
+ .input-box input{
+   
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: -20px;
+    
+} 
+
+.icon{
+    position: relative;
+    left: 270px;
+}
+
+@media(max-width:540px){
+    .input-box{
+    
+        width: 260px;
+        margin: 50px 0 ;
+        border-bottom:2px solid white ;
+    } 
+    .container{
+        width: 280px;
+    }
+
+    .icon{
+        position: relative;
+        left: 240px;
+    }
+    
+}
+
+@media(max-width:430px){
+    .input-box{
+    
+        width: 260px;
+        margin: 50px 0 ;
+        border-bottom:2px solid white ;
+    } 
+    .container{
+        width: 230px;
+    }
+
+    .icon{
+        position: relative;
+        left: 240px;
+    }
+    
+}
+
+@media(max-width:285px){
+    .input-box{
+    
+        width: 260px;
+        margin: 50px 0 ;
+        border-bottom:2px solid white ;
+    } 
+    .container{
+        width: 180px;
+    }
+
+    .icon{
+        position: relative;
+        left: 240px;
+    }
+    
+}
+
+@media(max-width:285px){
+    .input-box{
+    
+        width: 220px;
+        margin: 50px 0 ;
+        border-bottom:2px solid white ;
+    } 
+    .container{
+        width: 130px;
+    }
+
+    .icon{
+        position: relative;
+        left: 200px;
+    }
+
+    .input-box label{
+        position: relative;
+        top: -25px;
+        left: -1px;
+    
+    }
+    
+}
+

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/bg.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+}
+
+.form-box{
+    /* position: relative; */
+    width: 400px;
+    height: 450px;
+    background-color: rgb(81, 143, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.form-value form{
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+}
+ .input-box{
+    position: relative;
+    padding: 20px 0;
+
+} 
+.input-box input{
+    border: none;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgb(0, 3, 6);
+    border-bottom: 2px solid white; 
+    background: transparent;
+    outline: none;
+}
+
+.input-box label{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    transform: translateY(-50%);
+    padding-top:20px ;
+
+}
+
+form h2{
+    /* display: flex;
+    top: 150px; */
+    font-size: 2.0rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.forget{
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget a{
+    text-decoration: none;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.input-box i{
+    position: relative;
+    left: 320px;
+    font-size: 20px;
+}
+
+@media(max-width:438px){
+    .form-box{
+      
+        width: 100%;
+        height: 100vh;
+
+        
+    }
+    .form-value form{
+        padding: 20px;
+        width: 350px;
+        height: 400px;
+    }
+
+}
+
+/* @media(max-width:400px){
+
+    .form-box{
+      
+        width: 100%;
+        height: 100vh;
+
+        
+    }
+  
+
+} */
+
